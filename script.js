@@ -2,41 +2,41 @@
 
 //TASK 1
 
-console.log("Hello World")
+// console.log("Hello World")
 
-let make = `AC Cobra`;
-let model = 'GT'
+// let make = `AC Cobra`;
+// let model = 'GT'
 
-console.log('carlton');
+// console.log('carlton');
 
-console.info('anand');
+// console.info('anand');
 
-console.warn('sydney');
+// console.warn('sydney');
 
-console.error('leo');
+// console.error('leo');
 
-console.log('my favourite car is ' + make + ' and the model is '+ model )
+// console.log('my favourite car is ' + make + ' and the model is '+ model )
 
-console.log("writing a test run for %c css changes to a statement", "color:green; background-color:orange; font-style: Bold; font-size: 40px; padding:40px");
+// console.log("writing a test run for %c css changes to a statement", "color:green; background-color:orange; font-style: Bold; font-size: 40px; padding:40px");
 
 
 //TASK 2
 
-let a;
-let b = "12345";
-let c = 12344;
-let d = true;
-let e = {a:"JavaScript"};
+// let a;
+// let b = "12345";
+// let c = 12344;
+// let d = true;
+// let e = {a:"JavaScript"};
 
-console.log(typeof(a));
-console.log(typeof(b));
-console.log(typeof(c));
-console.log(typeof(d));
-console.log(typeof(e));
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+// console.log(typeof(d));
+// console.log(typeof(e));
 
-let totalMoney = 4000;
-let moneyPaidSoFar = 2348;
-console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${moneyPaidSoFar}`)
+// let totalMoney = 4000;
+// let moneyPaidSoFar = 2348;
+// console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${moneyPaidSoFar}`)
 
 
 //TASK 4
@@ -80,32 +80,50 @@ console.log(`The total bill is £${totalMoney} the remaining amount of money to 
 // }  
 
 //5.
-let current = new Date();
-let day = current.getDay();
-switch (day) {
-  case 1:
-    console.log(`its Monday`);
-  case 2:
-    console.log(`its Tuesday`);
-  case 3:
-    console.log(`its Wednesday`);
-  case 4:
-    console.log(`its Thursday`)
-  case 5:
-    console.log(`its Friday`);
-    break;
-  case 6:
-    console.log(`its Saturday`);
-    break;
-  case 0:
-    console.log(`its Sunday`);
-    break;
-  default:
-    console.log(`Invalid Range`);
-    break;
-}
+// let current = new Date();
+// let day = current.getDay();
+// switch (day) {
+//   case 1:
+//     console.log(`its Monday`);
+//   case 2:
+//     console.log(`its Tuesday`);
+//   case 3:
+//     console.log(`its Wednesday`);
+//   case 4:
+//     console.log(`its Thursday`)
+//   case 5:
+//     console.log(`its Friday`);
+//     break;
+//   case 6:
+//     console.log(`its Saturday`);
+//     break;
+//   case 0:
+//     console.log(`its Sunday`);
+//     break;
+//   default:
+//     console.log(`Invalid Range`);
+//     break;
+// }
 
+//TASK 5:
 
+// let strictA = true;
+// let strictB = 1;
+// console.log(strictA == strictB); //TRUE
+// console.log(strictA === strictB); //FALSE
 
+// console.log(strictA != strictB); //FALSE
+// console.log(strictA !== strictB); //TRUE
 
+// let age = 63
+// for (let m = 1; m <= 5; m++) {
+//   console.log((age >= 18 && age <=65) ? console.log("age is as expected") : console.log("incorrect age for this check"));
+//   age++
+// }  
+
+// let age2 = 48
+// for (let m = 1; m <= 6; m++) {
+//   console.log((age2 >= 18 && age2 <=50) ? console.log("age is below 50") : console.log("wheeeyy your over 50!"));
+//   age2++
+// }  
 
