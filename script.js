@@ -146,6 +146,19 @@
 // }
 
 //99 bottles of beer
+
+//Solution 1
+// for (let bottles = 99; bottles >= 0; bottles--) {
+//   console.log((bottles > 0 && bottles <=99) ? console.log(`${bottles} bottles of beer on the wall, ${bottles} bottles of beer.Take one down and pass it around, ${bottles-1} bottles of beer on the wall.`) : console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall."));
+// }  
+
+//Solution 2
 for (let bottles = 99; bottles >= 0; bottles--) {
-  console.log((bottles > 0 && bottles <=99) ? console.log(`${bottles} bottles of beer on the wall, ${bottles} bottles of beer.Take one down and pass it around, ${bottles-1} bottles of beer on the wall.`) : console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall."));
+  if (bottles > 1 && bottles <=99) {
+    console.log(`${bottles} bottles of beer on the wall, ${bottles} bottles of beer.Take one down and pass it around, ${bottles-1} bottles of beer on the wall.`);
+  } else if (bottles == 1) {
+    console.log(`${bottles} bottle of beer on the wall, ${bottles} bottle of beer.Take one down and pass it around, ${bottles-1} bottles of beer on the wall.`);
+  } else {
+    console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall.");
+  }
 }  
