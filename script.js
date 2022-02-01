@@ -37,3 +37,75 @@ console.log(typeof(e));
 let totalMoney = 4000;
 let moneyPaidSoFar = 2348;
 console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${moneyPaidSoFar}`)
+
+
+//TASK 4
+
+// 1.
+// let f = 100;
+// while (f <= 200) {
+//   console.log(f);
+//   f = f + 10;
+// }
+
+// 2.
+// let g = 100;
+// while (g <= 200) {
+//   if (g%2 == 0) {
+//     console.log(g + "-")
+//   } else {
+//     console.log(g + "*")
+//   }
+//   g++
+// }
+  
+//3.
+// for (let h = 0; h < 10; h++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(j);
+//   }
+// }  
+
+//4.
+// for (let k = 100; k <= 200; k++) {
+//   console.log(k)
+// }  
+
+// for (let l = 100; l <= 200; l++) {
+//   if (l%2 == 0) {
+//     console.log(l + "-")
+//   } else {
+//     console.log(l + "*")
+//   }
+// }  
+
+//5.
+let current = new Date();
+let day = current.getDay();
+switch (day) {
+  case 1:
+    console.log(`its Monday`);
+  case 2:
+    console.log(`its Tuesday`);
+  case 3:
+    console.log(`its Wednesday`);
+  case 4:
+    console.log(`its Thursday`)
+  case 5:
+    console.log(`its Friday`);
+    break;
+  case 6:
+    console.log(`its Saturday`);
+    break;
+  case 0:
+    console.log(`its Sunday`);
+    break;
+  default:
+    console.log(`Invalid Range`);
+    break;
+}
+
+
+
+
+
