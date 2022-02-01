@@ -131,16 +131,21 @@
 
 //FizzBuzz
 
-let n = 1;
-while (n <= 100) {
-  if (n%3 == 0 && n%5 == 0) {
-    console.log("FizzBuzz")
-  } else if (n%5 == 0) {
-    console.log("Buzz")
-  } else if (n%3 == 0) {
-    console.log("Fizz")
-  } else {
-    console.log(n)
-  }
-  n++
-}
+// let n = 1;
+// while (n <= 100) {
+//   if (n%3 == 0 && n%5 == 0) {
+//     console.log("FizzBuzz")
+//   } else if (n%5 == 0) {
+//     console.log("Buzz")
+//   } else if (n%3 == 0) {
+//     console.log("Fizz")
+//   } else {
+//     console.log(n)
+//   }
+//   n++
+// }
+
+//99 bottles of beer
+for (let bottles = 99; bottles >= 0; bottles--) {
+  console.log((bottles > 0 && bottles <=99) ? console.log(`${bottles} bottles of beer on the wall, ${bottles} bottles of beer.Take one down and pass it around, ${bottles-1} bottles of beer on the wall.`) : console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall."));
+}  
