@@ -1,6 +1,6 @@
 `use strict`
 
-//TASK 1`
+//TASK 6`
 
 // let darthVader = { allegiance: "empire", weapon: "lightsabre", sith: "true" };
 
@@ -22,20 +22,20 @@
 //   console.log(myArray[x])
 // }
 
-//TASK 2
+//TASK 7
 
-function subtract(a,b) {
-  return a-b;
-}
+// function subtract(a,b) {
+//   return a-b;
+// }
 
-console.log(subtract(18,7))
+// console.log(subtract(18,7))
 
 
-function welcome(name, age, gender) {
-  console.log(`my name is ${name}, i am ${age} years old and of gender ${gender}`)
-}
+// function welcome(name, age, gender) {
+//   console.log(`my name is ${name}, i am ${age} years old and of gender ${gender}`)
+// }
 
-console.log(welcome("bobby", 25, "male"))
+// console.log(welcome("bobby", 25, "male"))
 
 //ARROW FUNCTIONs
 
@@ -48,8 +48,26 @@ console.log(welcome("bobby", 25, "male"))
 //3.
 // goodbye = message => console.log(message)
 
-powerUp = (n1, n2) => {
-  return Math.pow(n1,n2)
-}
+// powerUp = (n1, n2) => {
+//   return Math.pow(n1,n2)
+// }
 
-console.log(powerUp(4,7))
+// console.log(powerUp(4,7))
+
+//TASK 8
+
+// function scope() {
+//   let x = "foo"
+//   if (x == "foo") {
+//     return "the word is foo"
+//     let i = "fighters"
+//   } else {
+//     return "the word is not foo :("
+//   }
+//   console.log(x)
+//   console.log(y)
+// }
+
+// console.log(scope())
+
+//ReferenceError
